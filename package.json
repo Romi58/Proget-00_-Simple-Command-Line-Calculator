@@ -1,0 +1,20 @@
+{
+  "name": "project00-simple-command-line-calculator",
+  "version": "1.0.0",
+  "description": "This is simple command line calculator made with inquirer and node.js using CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm dist/calculator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.11",
+    "inquirer": "^9.2.20",
+    "typescript": "^5.4.5",
+    "esm": "^3.2.25"
+  }
+}
